@@ -1,0 +1,19 @@
+div {
+    background-color: #d3d3d3;
+    border: 1px solid rgb(131, 131, 131);
+    border-radius: 3px;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+li:nth-child(odd) {
+    background-color: rgb(236, 234, 234);
+}
+
+.done-btn {
+    position: absolute;
+    right: 5px;
+    background-color: darkgray;
+    color: white;
+}
