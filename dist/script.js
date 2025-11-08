@@ -33,7 +33,7 @@ function addBtnClick() {
 //Creates a new task li element and appends it to the list
 function addTask(taskInpt) {
     let newTask = document.createElement("li");
-    newTask.innerHTML = "<span class='task-text'>" + "  " + taskInpt + "  " + "</span><button class='done-btn'>&#10006;</button>"; //TODO remove spaces and pad via css
+    newTask.innerHTML = "<span class='task-text'>" + "  " + taskInpt + "  " + "</span><button class='done-btn'>&#10006;</button>"; 
     taskList.appendChild(newTask);
     const doneButtons = document.querySelectorAll(".done-btn");
     doneButtons.forEach(button => {
